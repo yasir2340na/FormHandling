@@ -1,10 +1,14 @@
 import Form1 from "./Form1.jsx";
-import "./App.css"
+import "./App.css";
+import DataT from "./DataT.jsx";
 
 function App() {
   return (
     <>
-    <Form1/>
+    <DataT/>
+    
+    {/* <Form1/> */}
+    
     </>
   );
 }

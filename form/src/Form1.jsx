@@ -45,7 +45,7 @@ function Form1(){
             <form onSubmit={handleSub} >
                 <label htmlFor="firstname" >First Name*</label>
               
-                <input onChange={enterName} type="text" placeholder="Enter First Name"/>
+                <input required onChange={enterName} type="text" placeholder="Enter First Name"/>
                 
                 <label htmlFor="lasttname">Last Name*</label>
                
@@ -85,7 +85,7 @@ function Form1(){
                     
                 </textarea>
                 <button type="Submit"> Submit</button>
-                <button type="button">Reset</button>
+                <button type="button" onClick={()=>setName("")}>Reset</button>
                 <h3>My name is : {name}
                     <br />
                     My lastname is: {lastname}

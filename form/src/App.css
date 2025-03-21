@@ -9,7 +9,7 @@ body{
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
  padding: 10px;
  transition: transform 0.2s;
- width: 500px;
+ width: 800px;
  text-align: center;
  margin:auto;
  margin-top: 20px;
@@ -17,10 +17,10 @@ body{
 }
 
 label{
-  font-size: 17px;
-  display: block;
+  font-size: 13px;
+  display: inline;
   width: 100%;
-  padding: 8px;
+
   margin-top: 8px;
   margin-bottom: 5px;
   text-align: left;
@@ -30,9 +30,10 @@ label{
 input{
 
   font-size: 12px;
-  display: block;
+  display: inline;
   width: 100%;
-  padding: 8px;
+  margin: 0,0,0,0;
+
   box-sizing: border-box;
   border-radius: 3px;
   text-align: left;
@@ -50,8 +51,9 @@ input[type="radio"]{
 }
 
 select{
-  display: block;
-  width: 100%;
+  display: inline;
+  width: 30%;
+  
   margin-bottom: 15px;
   padding: 10px;
   box-sizing: border-box;
