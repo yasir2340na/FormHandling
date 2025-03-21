@@ -9,6 +9,7 @@ function Form1(){
       };
       const handleSub=(e)=>{
         e.preventDefault()
+        alert("form submitted")
       }
 
       const[name,setName]=useState("");
@@ -31,6 +32,7 @@ function Form1(){
       const[subject,setSub]= useState('')
       const selectSub= (e)=>{
         setSub(e.target.value)
+        
       }
 
 
@@ -82,7 +84,7 @@ function Form1(){
                 <textarea name="textarea" id="textarea" cols={30} rows={10} placeholder="Tell about Yourself">
                     
                 </textarea>
-                <button type="button"> Submit</button>
+                <button type="Submit"> Submit</button>
                 <button type="button">Reset</button>
                 <h3>My name is : {name}
                     <br />
